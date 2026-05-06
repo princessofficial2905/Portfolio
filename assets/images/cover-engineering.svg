@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering simulation cover art</title>
+  <desc id="desc">Dark CAD and simulation object illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020202"/><stop offset="0.62" stop-color="#111"/><stop offset="1" stop-color="#282828"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="780" rx="56" fill="url(#bg)"/>
+  <g stroke="#303030" stroke-width="2">
+    <path d="M170 180h860M170 280h860M170 380h860M170 480h860M170 580h860"/>
+    <path d="M240 110v540M360 110v540M480 110v540M600 110v540M720 110v540M840 110v540M960 110v540"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M388 300l220-126 220 126-220 126z" fill="#e8e8e8"/>
+    <path d="M388 300l220 126v180L388 480z" fill="#777"/>
+    <path d="M828 300L608 426v180l220-126z" fill="#343434"/>
+    <path d="M498 302l110-62 110 62-110 64z" fill="#111"/>
+    <circle cx="608" cy="425" r="44" fill="#f2d27e"/>
+  </g>
+  <path d="M300 226c128-98 268-116 424-52 90 37 148 93 198 168" fill="none" stroke="#efefef" stroke-width="6" stroke-dasharray="14 18" opacity="0.45"/>
+  <text x="205" y="662" fill="#f8f8f8" font-family="Georgia, serif" font-size="56" font-weight="700">Engineering Simulation</text>
+  <text x="207" y="706" fill="#a8a8a8" font-family="Arial, sans-serif" font-size="24">IoT, AR/VR, CAD, CAE, materials, and automation foundations</text>
+</svg>

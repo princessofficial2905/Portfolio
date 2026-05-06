@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Creative writing and design cover art</title>
+  <desc id="desc">Dark pen, paper, and alphabet illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020202"/><stop offset="0.58" stop-color="#111"/><stop offset="1" stop-color="#30242b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity="0.58"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="780" rx="56" fill="url(#bg)"/>
+  <g opacity="0.35" fill="#f1f1f1" font-family="Georgia, serif" font-size="82" font-weight="700">
+    <text x="160" y="190">P</text><text x="860" y="180">r</text><text x="260" y="560">i</text><text x="960" y="520">n</text>
+    <text x="720" y="300">c</text><text x="370" y="260">e</text><text x="820" y="610">s</text><text x="490" y="640">s</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="318" y="170" width="404" height="452" rx="28" fill="#e9e9e9"/>
+    <path d="M378 274h280M378 340h214M378 406h260M378 472h180" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+    <path d="M744 234l110-82 64 66-116 80z" fill="#f3d17e"/>
+    <path d="M802 298l-32 92 84-46z" fill="#f0f0f0"/>
+    <path d="M744 234l58 64" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="205" y="662" fill="#f8f8f8" font-family="Georgia, serif" font-size="56" font-weight="700">Writing & Design</text>
+  <text x="207" y="706" fill="#a8a8a8" font-family="Arial, sans-serif" font-size="24">Essays, carousels, visual direction, branding, and portfolio storytelling</text>
+</svg>

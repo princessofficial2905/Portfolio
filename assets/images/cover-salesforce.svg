@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Salesforce CRM cover art</title>
+  <desc id="desc">Dark dashboard illustration for Salesforce and CRM workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030303"/><stop offset="0.6" stop-color="#101010"/><stop offset="1" stop-color="#23272b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="780" rx="56" fill="url(#bg)"/>
+  <g opacity="0.75" stroke="#303030" stroke-width="2">
+    <path d="M172 170h856M172 270h856M172 370h856M172 470h856M172 570h856"/>
+    <path d="M280 100v540M410 100v540M540 100v540M670 100v540M800 100v540M930 100v540"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="210" y="184" width="780" height="390" rx="34" fill="#111" stroke="#5d5d5d"/>
+    <rect x="268" y="250" width="192" height="92" rx="24" fill="#eeeeee"/>
+    <rect x="500" y="250" width="192" height="92" rx="24" fill="#2a2a2a" stroke="#666"/>
+    <rect x="732" y="250" width="192" height="92" rx="24" fill="#2a2a2a" stroke="#666"/>
+    <path d="M290 450c66-84 136-32 206-86s128-48 210 12 126-28 184-82" fill="none" stroke="#f1d17e" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="364" cy="296" r="26" fill="#111"/>
+    <path d="M548 296h86M778 296h88" stroke="#f2f2f2" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <text x="205" y="662" fill="#f8f8f8" font-family="Georgia, serif" font-size="56" font-weight="700">Salesforce CRM</text>
+  <text x="207" y="706" fill="#a8a8a8" font-family="Arial, sans-serif" font-size="24">SOQL, dashboards, CRM data quality, workflow checks, and governance</text>
+</svg>

@@ -11,6 +11,8 @@ Premium GitHub Pages-ready personal portfolio for Princess, built as a complete 
 - `MASTER_RESUME_PRINCESS.md` - Mega master resume in ATS-friendly Markdown.
 - `MASTER_RESUME_PRINCESS.html` - Polished browser and print-ready resume.
 - `MASTER_RESUME_PRINCESS.pdf` - PDF version generated from the HTML resume.
+- `assets/docs/Princess_Mega_Master_Resume.pdf` - Original mega master resume PDF source.
+- `assets/docs/Resume_Princess.pdf` - Original compact resume PDF source.
 - `assets/images/` - Placeholder visuals for certificates, designs, writings, and projects.
 - `assets/icons/favicon.svg` - Favicon placeholder.
 
@@ -28,6 +30,9 @@ Resume_Codex/
   MASTER_RESUME_PRINCESS.pdf
   assets/
     certificates/
+    docs/
+      Princess_Mega_Master_Resume.pdf
+      Resume_Princess.pdf
     icons/
       favicon.svg
     images/

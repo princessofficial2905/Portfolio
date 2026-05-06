@@ -137,7 +137,7 @@ function renderProjects() {
 
   const items = data.projects.filter((item) => matchesCategory(item, activeProjectFilter));
   mount.innerHTML = items.length
-    ? items.map((item) => cardTemplate(item, { classes: "project-card" })).join("")
+    ? items.map((item) => cardTemplate(item, { classes: "project-card", showStatus: false })).join("")
     : '<div class="empty-state">No projects match this filter yet.</div>';
 }
 
@@ -148,7 +148,7 @@ function renderCarousel(trackId, items) {
   const carouselItems = [...items, ...items];
   track.innerHTML = carouselItems.map((item) => cardTemplate(item, {
     classes: "proof-card",
-    showStatus: true
+    showStatus: false
   })).join("");
 }
 
@@ -158,7 +158,7 @@ function renderWritings() {
 
   mount.innerHTML = data.writings.map((item) => cardTemplate(item, {
     classes: "writing-card",
-    showStatus: true
+    showStatus: false
   })).join("");
 }
 
@@ -169,7 +169,7 @@ function renderLivePreviews() {
   mount.innerHTML = data.projects.map((item) => cardTemplate(item, {
     classes: "preview-card",
     useIframe: true,
-    showStatus: true
+    showStatus: false
   })).join("");
 }
 
@@ -244,7 +244,6 @@ function renderFeaturedLinks() {
           <span class="category-pill">${escapeHtml(item.category)}</span>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.description)}</p>
-          ${item.status ? `<p class="card-status">${escapeHtml(item.status)}</p>` : ""}
           ${href ? `<a class="card-action" href="${escapeHtml(href)}"${target}>${escapeHtml(item.buttonText || "Open")}</a>` : ""}
         </div>
       </article>
