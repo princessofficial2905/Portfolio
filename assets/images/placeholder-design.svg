@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Design placeholder</title>
+  <desc id="desc">Elegant placeholder graphic for branding, logo, or visual design work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211f26"/>
+      <stop offset="0.5" stop-color="#51394d"/>
+      <stop offset="1" stop-color="#b9785b"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4cf83"/>
+      <stop offset="1" stop-color="#d9b4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="54" fill="url(#bg)"/>
+  <circle cx="192" cy="184" r="130" fill="#f3cf86" opacity="0.16"/>
+  <circle cx="960" cy="560" r="220" fill="#d7b8ff" opacity="0.16"/>
+  <path d="M276 476c114-196 281-232 417-108 93 85 158 64 231-48" fill="none" stroke="url(#line)" stroke-width="26" stroke-linecap="round"/>
+  <rect x="168" y="126" width="864" height="508" rx="42" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.22"/>
+  <text x="600" y="350" fill="#fff8eb" font-family="Georgia, serif" font-size="70" font-weight="700" text-anchor="middle">Design Work</text>
+  <text x="600" y="414" fill="#f2ddc3" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">Add logo, branding, Behance, or visual thumbnails here</text>
+</svg>

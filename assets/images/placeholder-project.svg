@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Project placeholder</title>
+  <desc id="desc">Premium placeholder graphic for portfolio projects and case studies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181719"/>
+      <stop offset="0.48" stop-color="#2e2630"/>
+      <stop offset="1" stop-color="#6d4a35"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4d8" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#d9c2ff" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="54" fill="url(#bg)"/>
+  <g opacity="0.92">
+    <rect x="142" y="144" width="272" height="210" rx="30" fill="url(#card)" stroke="#fff8eb" stroke-opacity="0.22"/>
+    <rect x="464" y="110" width="592" height="244" rx="30" fill="url(#card)" stroke="#fff8eb" stroke-opacity="0.22"/>
+    <rect x="142" y="406" width="438" height="218" rx="30" fill="url(#card)" stroke="#fff8eb" stroke-opacity="0.22"/>
+    <rect x="632" y="406" width="424" height="218" rx="30" fill="url(#card)" stroke="#fff8eb" stroke-opacity="0.22"/>
+  </g>
+  <circle cx="278" cy="250" r="54" fill="#f4c975"/>
+  <path d="M558 236h336M558 286h236M246 508h232M716 508h248M716 558h180" stroke="#fff8eb" stroke-width="18" stroke-linecap="round" opacity="0.76"/>
+  <text x="600" y="690" fill="#f8e5ca" font-family="Georgia, serif" font-size="44" font-weight="700" text-anchor="middle">Project Case Study</text>
+</svg>

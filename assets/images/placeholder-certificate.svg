@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Certificate placeholder</title>
+  <desc id="desc">Elegant placeholder graphic for a certificate or credential.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8eb"/>
+      <stop offset="0.48" stop-color="#f2d8bd"/>
+      <stop offset="1" stop-color="#d9b071"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="28%" cy="22%" r="80%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="760" rx="54" fill="url(#bg)"/>
+  <rect width="1200" height="760" rx="54" fill="url(#glow)"/>
+  <rect x="92" y="88" width="1016" height="584" rx="34" fill="#fffaf1" opacity="0.72" stroke="#9e6f3c" stroke-width="3"/>
+  <rect x="144" y="140" width="912" height="480" rx="24" fill="none" stroke="#d4ac73" stroke-width="2" stroke-dasharray="10 16"/>
+  <circle cx="600" cy="288" r="82" fill="#2b2529"/>
+  <path d="M558 292l29 29 60-72" fill="none" stroke="#f0c879" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="430" fill="#312a2d" font-family="Georgia, serif" font-size="56" font-weight="700" text-anchor="middle">Credential Preview</text>
+  <text x="600" y="486" fill="#705b53" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">Replace this card with a certificate image or PDF</text>
+</svg>

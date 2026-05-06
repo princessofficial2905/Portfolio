@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Master resume for Princess - Creative Technologist, QA Tester, Salesforce Admin, AI Data and Documentation Creator.">
+  <title>Princess - Master Resume</title>
+  <style>
+    :root {
+      --ink: #22201f;
+      --muted: #68615c;
+      --paper: #fffaf1;
+      --card: #ffffff;
+      --line: #e9d9c4;
+      --rose: #a75c67;
+      --amber: #b97824;
+      --lavender: #6f658d;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(167, 92, 103, 0.14), transparent 32rem),
+        radial-gradient(circle at top right, rgba(111, 101, 141, 0.13), transparent 34rem),
+        var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.58;
+    }
+
+    a {
+      color: var(--lavender);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 32px auto;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: 0 24px 90px rgba(60, 40, 24, 0.14);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 56px 64px 36px;
+      background:
+        linear-gradient(135deg, rgba(34, 32, 31, 0.95), rgba(56, 45, 57, 0.96)),
+        linear-gradient(45deg, rgba(185, 120, 36, 0.2), transparent);
+      color: #fff8ec;
+    }
+
+    header p,
+    header a {
+      color: #f5dfc1;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2.6rem, 7vw, 5.6rem);
+      line-height: 0.9;
+      letter-spacing: -0.07em;
+    }
+
+    .headline {
+      max-width: 860px;
+      margin: 0 0 22px;
+      color: #ffe4b9;
+      font-size: 1.08rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 8px 20px;
+      margin-top: 18px;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 0.92rem;
+    }
+
+    main {
+      padding: 38px 64px 56px;
+    }
+
+    section {
+      margin: 0 0 34px;
+      break-inside: avoid;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      color: var(--rose);
+      font-family: "Segoe UI", sans-serif;
+      font-size: 0.84rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      margin: 24px 0 4px;
+      color: var(--ink);
+      font-size: 1.28rem;
+      line-height: 1.2;
+    }
+
+    h4 {
+      margin: 18px 0 4px;
+      color: var(--lavender);
+      font-family: "Segoe UI", sans-serif;
+      font-size: 1rem;
+    }
+
+    .meta {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-family: "Segoe UI", sans-serif;
+      font-size: 0.93rem;
+      font-weight: 650;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 8px 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 10px;
+      background: #fff8ed;
+      color: #4f4540;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 0.78rem;
+      font-weight: 650;
+    }
+
+    .role {
+      padding: 18px 20px;
+      margin: 14px 0;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(135deg, #fff, #fff9ef);
+      break-inside: avoid;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .print-actions {
+      position: sticky;
+      top: 16px;
+      z-index: 5;
+      display: flex;
+      justify-content: flex-end;
+      width: min(1120px, calc(100% - 32px));
+      margin: 18px auto -12px;
+      pointer-events: none;
+    }
+
+    .print-actions button {
+      pointer-events: auto;
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 18px;
+      background: #2a2528;
+      color: #fff7ea;
+      box-shadow: 0 14px 34px rgba(40, 25, 15, 0.18);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    @media (max-width: 780px) {
+      .page {
+        width: min(100% - 18px, 1120px);
+        margin: 12px auto;
+        border-radius: 18px;
+      }
+
+      header,
+      main {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media print {
+      @page {
+        size: A4;
+        margin: 14mm;
+      }
+
+      body {
+        background: #fff;
+        font-size: 10.5pt;
+      }
+
+      .print-actions {
+        display: none;
+      }
+
+      .page {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border: 0;
+        border-radius: 0;
+      }
+
+      header {
+        padding: 0 0 16px;
+        background: #fff;
+        color: #111;
+        border-bottom: 2px solid #111;
+      }
+
+      header p,
+      header a,
+      .headline {
+        color: #111;
+      }
+
+      main {
+        padding: 18px 0 0;
+      }
+
+      a {
+        color: #111;
+      }
+
+      .role {
+        border: 1px solid #ddd;
+        background: #fff;
+      }
+
+      .chip {
+        background: #fff;
+        color: #111;
+        border-color: #ddd;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-actions">
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  <article class="page">
+    <header>
+      <h1>Princess</h1>
+      <p class="headline">Creative Technologist | QA Tester | Salesforce Admin | AI Data & Automation Projects | Technical Documentation Creator</p>
+      <div class="contact-grid" aria-label="Contact and portfolio links">
+        <span>Delhi, India</span>
+        <a href="mailto:princess.official2905@gmail.com">princess.official2905@gmail.com</a>
+        <a href="https://www.linkedin.com/in/princess2905">LinkedIn: princess2905</a>
+        <a href="https://www.behance.net/princess2905">Behance: princess2905</a>
+        <a href="https://princessofficial2905.github.io/Writings/">Blog / Writings</a>
+        <a href="https://www.salesforce.com/trailblazer/princessadmin">Salesforce Trailhead</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Professional Summary</h2>
+        <p>Detail-oriented and multi-skilled B.Tech Mechanical and Automation Engineering graduate from IGDTUW, Delhi, with hands-on experience across software testing, Salesforce administration, CRM data governance, AI training-data style projects, technical documentation, automation, content systems, and digital portfolio development.</p>
+        <p>Experienced in manual QA testing, regression testing, bug reporting, Salesforce workflow automation, SOQL-based reporting, data cleaning, Excel-based analysis, GitHub-based project workflows, and AI-assisted content/documentation creation. Built multiple self-directed and freelance-style portfolio projects including AI image dataset preparation, bug-fixing research, trading-assistant bot workflows, NGO operations documentation systems, advocate documentation packs, freelancer toolkits, and creator content planning systems.</p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+
+        <div class="role">
+          <h3>Tester Work - Software Tester</h3>
+          <p class="meta">Aug 2025 - Present | Remote / Platform-Based Testing</p>
+          <ul>
+            <li>Perform platform-based manual, exploratory, functional, regression, usability, localization, and user-flow testing across web and mobile experiences.</li>
+            <li>Identify UI issues, functional errors, broken flows, form validation gaps, account creation issues, payment/user-flow problems, and device/browser inconsistencies.</li>
+            <li>Write structured bug reports with reproduction steps, expected versus actual results, evidence, severity notes, environment details, and concise QA communication.</li>
+            <li>Review user journeys from an end-user perspective, documenting friction points, confusing interactions, unclear copy, and cross-device behavior differences.</li>
+          </ul>
+          <div class="chips"><span class="chip">Manual Testing</span><span class="chip">Exploratory Testing</span><span class="chip">Regression Testing</span><span class="chip">Bug Reporting</span><span class="chip">Cross-Browser Testing</span><span class="chip">QA Documentation</span></div>
+        </div>
+
+        <div class="role">
+          <h3>Independent Freelance & Portfolio Projects</h3>
+          <p class="meta">Aug 2025 - Present | Remote / Self-Directed / Freelance-Style Work</p>
+          <h4>AI Training Data & Image Collection Projects</h4>
+          <ul>
+            <li>Built structured AI training-data style workflows for scene-object image collection, isolated object references, base scene images, and final scene integration examples.</li>
+            <li>Applied quality principles such as object visibility, clear framing, natural lighting, clean backgrounds, angle consistency, and environment-object relevance.</li>
+            <li>Organized file sets with metadata-style notes, image quality observations, environment type, object category, and scene descriptions.</li>
+          </ul>
+          <h4>Bug Fixing, GitHub PR & Bounty Platform Research</h4>
+          <ul>
+            <li>Explored GitHub, Algora-style bounties, bug bounty boards, issue-based workflows, contributor instructions, labels, and pull request processes.</li>
+            <li>Practiced bug identification, issue triaging, reproduction steps, requirement reading, technical note-taking, and security-aware review using VirusTotal.</li>
+          </ul>
+          <h4>Trading Assistant Bot & Market Automation Workflows</h4>
+          <ul>
+            <li>Designed personal trading-assistant workflow logic around intraday scanning, breakout identification, ranked candidate cycles, risk-reward calculation, quantity sizing, and alert formatting.</li>
+            <li>Worked with AI coding assistants on modules for strategy logic, reports, telemetry, storage, configuration, runtime windows, email notifications, and CLI workflows.</li>
+          </ul>
+          <h4>Documentation Toolkits</h4>
+          <ul>
+            <li>Created client-ready documentation concepts for NGO operations, advocate legal-admin support, freelancer service operations, and creator content planning.</li>
+            <li>Structured templates, checklists, tracking sheets, SOPs, communication formats, process maps, and platform-ready writing systems with responsible-use framing.</li>
+          </ul>
+          <div class="chips"><span class="chip">AI Data</span><span class="chip">GitHub PR Workflows</span><span class="chip">Python</span><span class="chip">Documentation Systems</span><span class="chip">Lead Generation</span><span class="chip">Content Strategy</span></div>
+        </div>
+
+        <div class="role">
+          <h3>Keysight Technologies International India Pvt. Ltd. - IT Intern</h3>
+          <p class="meta">Jan 2025 - July 2025 | Global IT Services, Gurugram</p>
+          <ul>
+            <li>Supported Salesforce and CRM workflows involving data imports/exports, reports, dashboards, workflow automation, CRM data quality, and master data optimization.</li>
+            <li>Cleaned, validated, optimized, and prepared files before submission to support better CRM data governance and reduce data inconsistencies.</li>
+            <li>Used Salesforce Lightning, SOQL queries, reporting, dashboards, Excel, and data handling workflows to review records and support data operations.</li>
+            <li>Performed regression and functional testing in Salesforce Lightning and prepared detailed bug reports with reproduction context and expected/actual behavior.</li>
+            <li>Collaborated with CMD and KTAS AE team members to support ticket handling, process review, and operational CRM tasks.</li>
+          </ul>
+          <div class="chips"><span class="chip">Salesforce Lightning</span><span class="chip">SOQL</span><span class="chip">Reports & Dashboards</span><span class="chip">Data Loader</span><span class="chip">CRM Data Governance</span><span class="chip">Functional Testing</span></div>
+        </div>
+
+        <div class="role">
+          <h3>Unessa Foundation - Crowdfunding & Fundraising Intern</h3>
+          <p class="meta">Oct 2025 - Nov 2025 | Remote</p>
+          <ul>
+            <li>Supported crowdfunding campaign activities through outreach, donor communication, stakeholder engagement, campaign messaging, and nonprofit fundraising workflow coordination.</li>
+            <li>Prepared communication drafts, campaign notes, and outreach-oriented content for potential donors and supporters.</li>
+          </ul>
+          <div class="chips"><span class="chip">Fundraising</span><span class="chip">Outreach</span><span class="chip">Donor Communication</span><span class="chip">NGO Operations</span></div>
+        </div>
+
+        <div class="role">
+          <h3>Airports Authority of India - IT Intern, Aviation Systems & Data Automation</h3>
+          <p class="meta">Aug 2024 - Sept 2024 | Delhi</p>
+          <ul>
+            <li>Gained exposure to AIMS modules, aviation information workflows, data automation concepts, government IT systems, Government eMarketplace initiatives, aviation protocols, and data privacy considerations.</li>
+            <li>Supported process documentation and system understanding around import/export, reporting, and operational data workflows.</li>
+          </ul>
+          <div class="chips"><span class="chip">IT Operations</span><span class="chip">Data Automation</span><span class="chip">AIMS Exposure</span><span class="chip">Process Documentation</span></div>
+        </div>
+
+        <div class="role">
+          <h3>IGDTUW / Robolution Society - IoT & Automation Intern</h3>
+          <p class="meta">June 2024 - July 2024</p>
+          <ul>
+            <li>Built a smart home automation system using NodeMCU ESP8266, Arduino IDE, relay circuits, Wi-Fi setup, Sinric Pro API, Alexa, and Google Assistant integration.</li>
+            <li>Worked on input signal stabilization, hardware-software integration, and end-to-end automation testing.</li>
+          </ul>
+          <div class="chips"><span class="chip">IoT</span><span class="chip">NodeMCU ESP8266</span><span class="chip">Arduino IDE</span><span class="chip">Sinric Pro API</span></div>
+        </div>
+
+        <div class="role">
+          <h3>STEAMEDU Learning Pvt. Ltd. - AR/VR Development Intern</h3>
+          <p class="meta">June 2023 - July 2023</p>
+          <ul>
+            <li>Built VR environment concepts using Unity, WebVR, and A-Frame, including cityscape exploration and airplane emergency landing simulation workflows.</li>
+            <li>Supported 3D rendering optimization, scene structure, interaction clarity, and simulation design.</li>
+          </ul>
+          <div class="chips"><span class="chip">Unity</span><span class="chip">A-Frame</span><span class="chip">WebVR</span><span class="chip">Simulation Design</span></div>
+        </div>
+
+        <div class="role">
+          <h3>ANH - A New Hope - Mechanical Design & Simulation Intern</h3>
+          <p class="meta">June 2022 - July 2022</p>
+          <ul>
+            <li>Created 3D mechanical models using Creo and SolidWorks and performed structural stress, deformation, tolerance, and material behavior analysis using Ansys APDL.</li>
+            <li>Applied CAD/CAE workflows to support mechanical design review, simulation interpretation, and design optimization.</li>
+          </ul>
+          <div class="chips"><span class="chip">Creo</span><span class="chip">SolidWorks</span><span class="chip">Ansys APDL</span><span class="chip">CAD/CAE</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Selected Projects</h2>
+        <div class="two-col">
+          <div>
+            <h3>AI Scene & Object Image Dataset Project</h3>
+            <p>Self-directed AI data project using base scenes, isolated object images, object-scene mapping, visual QA, metadata notes, and image quality review.</p>
+          </div>
+          <div>
+            <h3>Personal Trading Assistant Bot</h3>
+            <p>Personal automation workflow for intraday scanning, breakout filters, ranked candidates, risk-reward calculation, alert formatting, reports, and documentation.</p>
+          </div>
+          <div>
+            <h3>NGO Operations Documentation System</h3>
+            <p>Client-ready documentation concept covering governance, HR, volunteers, fundraising, grants, compliance, impact reporting, communications, and risk management.</p>
+          </div>
+          <div>
+            <h3>Advocate Documentation Support Pack</h3>
+            <p>Legal-admin organization system with case intake, client communication, hearing notes, checklists, matter trackers, follow-up logs, and responsible-use disclaimers.</p>
+          </div>
+          <div>
+            <h3>Freelancer Operations Toolkit</h3>
+            <p>Service operations pack for onboarding, pricing, proposals, delivery checklists, revision tracking, invoices, testimonials, portfolio planning, and lead research.</p>
+          </div>
+          <div>
+            <h3>Creator Content Planning Toolkit</h3>
+            <p>Content operations system for carousel ideas, captions, hooks, storytime scripts, blogs, content calendars, platform repurposing, and visual direction.</p>
+          </div>
+          <div>
+            <h3>Smart Home Automation using NodeMCU</h3>
+            <p>IoT automation prototype with NodeMCU ESP8266, relay circuits, Wi-Fi configuration, Sinric Pro API, Alexa, and Google Assistant.</p>
+          </div>
+          <div>
+            <h3>VR Emergency Landing Simulation</h3>
+            <p>AR/VR simulation concept using Unity, WebVR, and A-Frame for emergency airplane landing and parachute deployment visualization.</p>
+          </div>
+          <div>
+            <h3>Hybrid Composite Materials Research</h3>
+            <p>Academic/research-oriented work connecting mechanical analysis, material behavior, CAD/CAE thinking, and technical documentation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <h3>QA & Testing</h3>
+        <p>Manual Testing, Exploratory Testing, Regression Testing, Functional Testing, Usability Testing, Cross-Browser Testing, Cross-Device Testing, Bug Reporting, Test Case Writing, Screenshot Evidence, Screen Recording, UI/UX Feedback, Issue Reproduction, QA Documentation.</p>
+        <h3>Salesforce & CRM</h3>
+        <p>Salesforce Lightning, Reports & Dashboards, Workflow Rules, Process Builder, Data Loader, Validation Rules, SOQL, CRM Data Governance, User Roles & Profiles, Lead & Opportunity Management, Sandbox Testing, Data Import/Export, CRM Automation.</p>
+        <h3>Programming, AI, Outreach & Documentation</h3>
+        <p>Python, JavaScript, Java Basics, HTML, CSS, GitHub, GitHub Pages, CLI Basics, PowerShell, Replit, VS Code, Codex, ChatGPT, Claude, Gemini, Grok, Prompt Engineering, Dataset Structuring, Prospeo, Apollo, Reoon, LinkedIn Research, Google Sheets, MS Word, Google Docs, Excel, Notion, Canva, Behance, Medium.</p>
+        <h3>Engineering & Simulation</h3>
+        <p>Creo, SolidWorks, Ansys APDL, Unity, A-Frame, WebVR, Arduino IDE, NodeMCU ESP8266, Sinric Pro API.</p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <h3>Indira Gandhi Delhi Technical University for Women, Delhi</h3>
+        <p class="meta">B.Tech in Mechanical and Automation Engineering | 2021 - 2025 | CGPA: 7.66 / 10</p>
+        <h3>N.C. Jindal Public School, Delhi</h3>
+        <p class="meta">Class XII - CBSE - 87.6% | Class X - CBSE - 88.6%</p>
+      </section>
+
+      <section>
+        <h2>Certifications & Learning</h2>
+        <div class="chips">
+          <span class="chip">Salesforce Trailhead - 227+ Badges</span>
+          <span class="chip">Double Star Ranger</span>
+          <span class="chip">Python: Beyond the Basics</span>
+          <span class="chip">Excel Training</span>
+          <span class="chip">Emotional Intelligence in the Workplace</span>
+          <span class="chip">Fundraising Internship</span>
+          <span class="chip">Explore Engineering Job Simulation</span>
+          <span class="chip">Lean Six Sigma & Quality Management</span>
+          <span class="chip">Business Analysis & Process Improvement</span>
+          <span class="chip">Digital Marketing & SEO</span>
+        </div>
+      </section>
+    </main>
+  </article>
+</body>
+</html>
