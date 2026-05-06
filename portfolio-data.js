@@ -25,8 +25,8 @@ const assetScanSummary = {
     },
     {
       title: "GitHub Pages Root",
-      url: "https://princessofficial2905.github.io/",
-      status: "HTTP 404 during automated check; should work after publishing this site."
+      url: "https://princessofficial2905.github.io/Portfolio/",
+      status: "Project Pages URL; should work after publishing the Portfolio repository."
     },
     {
       title: "LinkedIn",
@@ -433,15 +433,15 @@ const featuredLinks = [
     icon: "SF"
   },
   {
-    title: "GitHub Pages Website",
+    title: "GitHub Pages Portfolio Website",
     category: "Portfolio",
-    description: "Root GitHub Pages profile. This may show 404 until the repository is published correctly.",
+    description: "Project-site URL for the Portfolio repository. This may show 404 until GitHub Pages finishes publishing.",
     image: "",
     file: "",
-    link: "https://princessofficial2905.github.io/",
+    link: "https://princessofficial2905.github.io/Portfolio/",
     tools: ["GitHub Pages"],
     tags: ["Portfolio"],
-    status: "HTTP 404 during check; should work after deployment.",
+    status: "Should work after deployment from the Portfolio repository.",
     buttonText: "Open Site",
     icon: "GH"
   },

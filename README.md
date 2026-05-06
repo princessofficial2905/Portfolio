@@ -64,11 +64,13 @@ http://localhost:8000
 7. Save.
 8. Open the live URL GitHub gives you.
 
-If this is your user profile site, the repository is usually named:
+For this `Portfolio` repository, the expected GitHub Pages URL will usually be:
 
 ```text
-princessofficial2905.github.io
+https://princessofficial2905.github.io/Portfolio/
 ```
+
+If you ever move the same files into a user profile site repository named `princessofficial2905.github.io`, the live URL would become `https://princessofficial2905.github.io/`.
 
 ## How To Edit Public Links
 
@@ -217,6 +219,6 @@ Automated preview checks may fail for public platforms even when a normal visito
 - LinkedIn blocked automated access.
 - Behance did not provide an automated preview.
 - Salesforce Trailhead returned a server error during the automated check.
-- GitHub Pages writing/root links returned `404` during the check and may need deployment or path correction.
+- GitHub Pages links may return `404` until the `Portfolio` repository is published from GitHub Pages settings.
 
 The portfolio keeps these links visible as direct visitor links instead of hiding them.
