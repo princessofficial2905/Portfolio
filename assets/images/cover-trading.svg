@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Trading assistant bot illustration</title>
+  <desc id="desc">Dark editorial chart dashboard with candlesticks, alerts, and ranked signal cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".58" stop-color="#171717"/>
+      <stop offset="1" stop-color="#28231d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".76" cy=".28" r=".52">
+      <stop offset="0" stop-color="#f2d17d" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#f2d17d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="780" fill="url(#glow)"/>
+  <g opacity=".13" stroke="#fff" stroke-width="2">
+    <path d="M135 150h930M135 255h930M135 360h930M135 465h930M135 570h930"/>
+    <path d="M230 102v520M370 102v520M510 102v520M650 102v520M790 102v520M930 102v520"/>
+  </g>
+  <path d="M150 540C260 475 318 506 410 405c75-82 118-30 175-88 73-75 136 30 214-25 74-52 104-125 249-112" fill="none" stroke="#f0f0f0" stroke-width="12" stroke-linecap="round"/>
+  <path d="M150 582c155-40 260-80 368-160 85-63 152-66 224-54 84 13 134-9 198-82 36-40 72-62 108-69" fill="none" stroke="#f2d17d" stroke-width="5" stroke-dasharray="18 18" stroke-linecap="round"/>
+  <g>
+    <rect x="226" y="285" width="28" height="130" rx="8" fill="#f1f1f1"/>
+    <path d="M240 245v210" stroke="#f1f1f1" stroke-width="7" stroke-linecap="round"/>
+    <rect x="356" y="348" width="28" height="96" rx="8" fill="#888"/>
+    <path d="M370 310v180" stroke="#888" stroke-width="7" stroke-linecap="round"/>
+    <rect x="498" y="250" width="28" height="164" rx="8" fill="#f1f1f1"/>
+    <path d="M512 206v244" stroke="#f1f1f1" stroke-width="7" stroke-linecap="round"/>
+    <rect x="642" y="320" width="28" height="116" rx="8" fill="#f2d17d"/>
+    <path d="M656 276v198" stroke="#f2d17d" stroke-width="7" stroke-linecap="round"/>
+    <rect x="785" y="210" width="28" height="186" rx="8" fill="#f1f1f1"/>
+    <path d="M799 178v260" stroke="#f1f1f1" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(738 438)">
+    <rect width="310" height="140" rx="30" fill="#f1f1f1"/>
+    <circle cx="54" cy="54" r="24" fill="#050505"/>
+    <path d="M105 45h150M105 78h112" stroke="#050505" stroke-width="12" stroke-linecap="round"/>
+    <rect x="42" y="100" width="126" height="18" rx="9" fill="#050505"/>
+    <circle cx="253" cy="102" r="22" fill="#f2d17d"/>
+  </g>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="54" font-weight="900">Trading Assistant Bot</text>
+  <text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">alerts, scanning, reports, and risk logic</text>
+</svg>

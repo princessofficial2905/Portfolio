@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="620" viewBox="0 0 520 620" role="img" aria-label="floating document stack">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity="0.62"/>
+    </filter>
+  </defs>
+  <rect width="520" height="620" fill="none"/>
+  <g filter="url(#shadow)">
+    <rect x="112" y="92" width="270" height="382" rx="28" fill="#111" stroke="#555"/>
+    <rect x="148" y="128" width="270" height="382" rx="28" fill="#ededed"/>
+    <path d="M196 202h174M196 260h132M196 318h186M196 376h118" stroke="#111" stroke-width="17" stroke-linecap="round"/>
+    <rect x="196" y="430" width="92" height="34" rx="12" fill="#111"/>
+  </g>
+</svg>

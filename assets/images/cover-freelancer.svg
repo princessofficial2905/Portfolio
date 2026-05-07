@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Freelancer operations toolkit illustration</title>
+  <desc id="desc">Service menu, client workflow board, invoice card, and outreach signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".58" stop-color="#171717"/>
+      <stop offset="1" stop-color="#222127"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".22" cy=".32" r=".48">
+      <stop offset="0" stop-color="#bfb6ff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#bfb6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="780" fill="url(#glow)"/>
+  <g opacity=".15" stroke="#fff" stroke-width="2">
+    <path d="M140 150h920M140 260h920M140 370h920M140 480h920"/>
+    <path d="M270 105v470M520 105v470M770 105v470M1020 105v470"/>
+  </g>
+  <g transform="translate(165 165)">
+    <rect width="430" height="300" rx="36" fill="#f1f1f1"/>
+    <path d="M70 84h290M70 140h160M70 196h245" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+    <rect x="70" y="238" width="130" height="28" rx="14" fill="#111"/>
+    <circle cx="338" cy="238" r="35" fill="#bfb6ff"/>
+  </g>
+  <g transform="translate(675 125)">
+    <rect x="0" y="0" width="280" height="145" rx="28" fill="#111" stroke="#f2f2f2" stroke-opacity=".28"/>
+    <rect x="0" y="180" width="280" height="145" rx="28" fill="#111" stroke="#f2f2f2" stroke-opacity=".28"/>
+    <rect x="0" y="360" width="280" height="115" rx="28" fill="#111" stroke="#f2f2f2" stroke-opacity=".28"/>
+    <path d="M46 62h178M46 98h116M46 242h178M46 278h86M46 410h178" stroke="#f2f2f2" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="224" cy="98" r="20" fill="#d8bd80"/>
+    <circle cx="224" cy="278" r="20" fill="#bfb6ff"/>
+  </g>
+  <path d="M588 312c66-74 112-50 158-5" fill="none" stroke="#d8bd80" stroke-width="9" stroke-dasharray="14 18" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="54" font-weight="900">Freelancer Toolkit</text>
+  <text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">onboarding, proposals, delivery, and outreach</text>
+</svg>

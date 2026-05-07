@@ -1,40 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1100" viewBox="0 0 1100 1100" role="img" aria-labelledby="title desc">
-  <title id="title">Monochrome portrait illustration</title>
-  <desc id="desc">A stylized black and white pen-art portrait for the portfolio hero.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Elegant monochrome woman pencil portrait</title>
+  <desc id="desc">A cinematic black and white pencil-art style portrait of a woman for the portfolio hero.</desc>
   <defs>
-    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f4f4f4"/>
-      <stop offset="1" stop-color="#9b9b9b"/>
+    <radialGradient id="glow" cx="48%" cy="34%" r="68%">
+      <stop offset="0" stop-color="#2b2b2b"/>
+      <stop offset="0.55" stop-color="#080808"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f7f7"/>
+      <stop offset="0.45" stop-color="#cfcfcf"/>
+      <stop offset="1" stop-color="#777"/>
     </linearGradient>
     <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#111"/>
-      <stop offset="1" stop-color="#383838"/>
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.58" stop-color="#242424"/>
+      <stop offset="1" stop-color="#080808"/>
     </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000" flood-opacity="0.5"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#989898"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="34" stdDeviation="30" flood-color="#000" flood-opacity="0.68"/>
     </filter>
+    <pattern id="hatch" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+      <path d="M0 9h18" stroke="#fff" stroke-width="1" opacity="0.08"/>
+    </pattern>
   </defs>
-  <rect width="1100" height="1100" fill="#050505"/>
-  <g opacity="0.5">
-    <path d="M180 780h310M180 720h230M180 660h160M720 342h170M760 410h98M790 478h170" stroke="#6f6f6f" stroke-width="2"/>
-    <path d="M560 190v690M620 210v610M680 250v520M740 300v430M440 290v460M380 370v320" stroke="#2f2f2f" stroke-width="2"/>
-    <path d="M280 580h570M300 640h490M330 700h430M390 760h310M490 820h170" stroke="#242424" stroke-width="2"/>
+
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+  <rect width="1200" height="1200" fill="url(#hatch)" opacity="0.55"/>
+
+  <g opacity="0.5" stroke="#2d2d2d" stroke-width="2">
+    <path d="M154 326h250M154 410h350M154 494h250M710 282h320M760 366h210M805 450h270M160 840h360M202 910h270M780 840h250"/>
+    <path d="M270 230v760M360 170v820M450 250v680M720 170v820M810 250v680M900 220v720"/>
   </g>
-  <g filter="url(#softShadow)">
-    <path d="M503 226c-78 16-135 75-148 157-10 63 7 129 39 184 16 27 33 55 42 86 13 46 2 94-20 135 63 31 134 48 207 41 96-10 179-61 211-137 22-52 15-112-4-165-16-45-40-87-47-134-10-68 16-143-30-196-47-55-165-85-250 29z" fill="url(#hair)"/>
-    <path d="M453 332c-31 49-40 113-25 173 18 73 70 136 136 167 40 19 86 25 128 11 63-21 102-85 112-151 9-59-4-119-26-174-31-76-95-132-171-141-65-7-122 36-154 115z" fill="url(#skin)"/>
-    <path d="M430 340c43-88 128-134 216-111 72 19 118 80 140 151-48-31-105-49-163-52-72-4-138 13-193 12z" fill="#0e0e0e"/>
-    <path d="M434 402c70-21 142-23 216-7 42 9 80 24 119 44-2-42-14-84-38-121-47-71-152-104-232-55-42 26-66 72-65 139z" fill="#151515"/>
-    <path d="M520 477c-19-8-44-6-61 7M660 464c25-13 55-10 75 7" fill="none" stroke="#0a0a0a" stroke-width="14" stroke-linecap="round"/>
-    <path d="M591 493c-10 42-26 75-44 103 22 12 49 11 72-1" fill="none" stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M518 661c54 32 116 31 173-1" fill="none" stroke="#111" stroke-width="13" stroke-linecap="round"/>
-    <path d="M452 742c56 90 78 168 72 257h248c-20-94-10-180 48-260-121 71-245 74-368 3z" fill="#181818"/>
-    <path d="M404 409c14 118 80 224 188 277M778 421c-30 129-97 225-204 281M496 268c90-48 188-28 256 44M452 376c87-54 196-58 309-8" fill="none" stroke="#f2f2f2" stroke-width="8" stroke-linecap="round" opacity="0.24"/>
+
+  <g opacity="0.72">
+    <rect x="150" y="214" width="114" height="114" fill="#121212" stroke="#505050"/>
+    <rect x="960" y="205" width="86" height="86" fill="#151515" stroke="#606060"/>
+    <rect x="990" y="355" width="44" height="44" fill="#262626"/>
+    <rect x="216" y="915" width="58" height="58" fill="#1f1f1f"/>
   </g>
-  <g opacity="0.8">
-    <rect x="160" y="170" width="110" height="110" fill="#151515" stroke="#444"/>
-    <rect x="862" y="204" width="68" height="68" fill="#202020" stroke="#555"/>
-    <rect x="880" y="315" width="38" height="38" fill="#2c2c2c"/>
-    <rect x="206" y="870" width="52" height="52" fill="#242424"/>
+
+  <g filter="url(#shadow)">
+    <path d="M381 1010c-20-125 0-238 54-340-72-118-79-282 2-395 74-103 207-150 336-118 135 34 230 142 251 278 18 115-20 216-91 299 41 88 52 183 34 276H381z" fill="url(#hair)"/>
+    <path d="M443 466c10-140 101-248 229-265 121-16 231 57 274 180 39 113 11 256-66 352-69 86-167 130-261 109-103-23-180-116-204-231-10-47-6-98 28-145z" fill="url(#face)"/>
+    <path d="M420 488c49-143 160-235 303-222 103 9 184 68 230 161-83-55-184-82-302-73-90 7-166 44-231 134z" fill="#111"/>
+    <path d="M457 424c90-108 238-143 373-76 43 21 80 52 112 93-150-44-304-30-485-17z" fill="#0b0b0b"/>
+    <path d="M419 559c34-92 98-145 190-161 112-19 227 4 340 50-42-96-117-165-222-189-120-27-238 19-304 121-32 49-44 112-4 179z" fill="#151515" opacity="0.92"/>
+    <path d="M448 536c74-38 151-57 230-58 103-1 189 25 260 77" fill="none" stroke="#f7f7f7" stroke-width="7" stroke-linecap="round" opacity="0.35"/>
+    <path d="M443 632c45-36 98-48 153-31M714 600c56-32 112-23 163 20" fill="none" stroke="#070707" stroke-width="14" stroke-linecap="round"/>
+    <path d="M470 651c38-14 75-11 112 10M738 628c38-18 77-14 116 12" fill="none" stroke="#f7f7f7" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+    <path d="M660 638c-10 58-31 107-62 146 35 20 77 20 121-4" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M561 843c81 49 170 45 260-10" fill="none" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <path d="M584 876c68 24 135 20 199-13" fill="none" stroke="#f5f5f5" stroke-width="5" stroke-linecap="round" opacity="0.36"/>
+    <path d="M493 430c-54 100-68 226-31 338 31 94 93 166 177 211M914 477c21 100 4 202-45 291-47 86-116 151-207 195" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.16"/>
+    <path d="M370 835c94 110 216 161 365 154 91-4 171-35 240-93" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.1"/>
+    <path d="M403 1008c49-92 113-151 192-177 99-31 212-10 339 64 12 36 19 74 21 113H403z" fill="#111"/>
+    <path d="M525 982c83-80 177-104 282-72" fill="none" stroke="#f7f7f7" stroke-width="5" stroke-linecap="round" opacity="0.2"/>
+  </g>
+
+  <g opacity="0.5" fill="none" stroke="#f1f1f1" stroke-linecap="round">
+    <path d="M470 338c115-115 286-125 417-24" stroke-width="6"/>
+    <path d="M433 744c42 117 121 197 237 240" stroke-width="4"/>
+    <path d="M892 742c-38 106-110 184-215 236" stroke-width="4"/>
+    <path d="M510 524c125-72 265-68 419 14" stroke-width="4"/>
   </g>
 </svg>

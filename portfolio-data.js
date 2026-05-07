@@ -54,115 +54,115 @@ const certificates = [
     category: "Programming",
     description: "Learning credential connected to Python fundamentals, programming confidence, and technical workflow building.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Python"],
     tags: ["Certificate", "Programming"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Excel Training",
     category: "Data & Productivity",
     description: "Spreadsheet learning signal connected to reporting, data cleaning, Excel analysis, and operations workflows.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Excel", "Data Analysis"],
     tags: ["Certificate", "Excel"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Emotional Intelligence in the Workplace",
     category: "Professional Skills",
     description: "Professional learning signal connected to workplace communication, collaboration, empathy, and team readiness.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Communication", "Workplace Skills"],
     tags: ["Certificate", "Professional Skills"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Fundraising Internship",
     category: "Nonprofit",
     description: "Fundraising learning and internship signal connected to crowdfunding, donor communication, campaign support, and NGO operations exposure.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Fundraising", "Outreach"],
     tags: ["Certificate", "NGO"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Explore Engineering Job Simulation",
     category: "Engineering",
     description: "Engineering career-readiness learning connected to simulation thinking, technical exposure, and project communication.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Engineering", "Simulation"],
     tags: ["Certificate", "Engineering"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Lean Six Sigma & Quality Management",
     category: "Quality",
     description: "Quality-management learning signal connected to process improvement, structured problem solving, and QA-adjacent thinking.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Quality", "Process Improvement"],
     tags: ["Certificate", "Quality"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Business Analysis & Process Improvement",
     category: "Business Analysis",
     description: "Business-analysis learning signal connected to process mapping, requirement thinking, and operational improvement.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Business Analysis", "Process Mapping"],
     tags: ["Certificate", "Business Analysis"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   },
   {
     title: "Digital Marketing & SEO",
     category: "Content Operations",
     description: "Digital marketing and SEO learning connected to content systems, search visibility, online publishing, and portfolio growth.",
     image: "assets/images/placeholder-certificate.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["SEO", "Content"],
     tags: ["Certificate", "Marketing"],
-    status: "Listed in the master resume; certificate file can be attached later.",
-    buttonText: "View Resume"
+    status: "Certificate file can be attached later.",
+    buttonText: "View Credential"
   }
 ];
 
 const writings = [
   {
-    title: "Emotional Essays Collection",
-    category: "Emotional Essays",
-    description: "Reflective essays, identity writing, emotional storytelling, and first-person editorial pieces linked through the writing portfolio.",
+    title: "Blog Collection",
+    category: "Blogs",
+    description: "Blog writing, personal writing, and editorial pages linked through the writing portfolio.",
     image: "assets/images/placeholder-writing.svg",
     file: "",
     link: "https://princessofficial2905.github.io/Writings/",
-    tools: ["Writing", "Storytelling", "GitHub Pages"],
-    tags: ["Writing", "Content", "Storytelling"],
+    tools: ["Writing", "Editorial", "GitHub Pages"],
+    tags: ["Writing", "Content", "Editorial"],
     status: "Writing hub linked for visitors.",
     buttonText: "Read Writings"
   },
   {
-    title: "Blog Writing & Article Pages",
-    category: "Blog",
+    title: "Blog Writing",
+    category: "Blogs",
     description: "Blog pages, article drafts, HTML editorial pages, and portfolio writing samples collected into a writing showcase.",
     image: "assets/images/placeholder-writing.svg",
     file: "",
@@ -173,16 +173,16 @@ const writings = [
     buttonText: "Open Blog"
   },
   {
-    title: "Instagram Carousel & Storytelling Concepts",
+    title: "Instagram Carousel & Content Concepts",
     category: "Content Writing",
-    description: "Carousel scripts, hooks, captions, quotes, storytime formats, and visual content concepts for platform-ready storytelling.",
+    description: "Carousel scripts, hooks, captions, quotes, post formats, and visual content concepts.",
     image: "assets/images/placeholder-writing.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Canva", "ChatGPT", "Claude", "Gemini"],
-    tags: ["Content", "Creative", "Storytelling"],
-    status: "Content systems are documented in the master resume.",
-    buttonText: "View Resume"
+    tags: ["Content", "Creative", "Social Media"],
+    status: "Portfolio content system; add direct sample links when ready.",
+    buttonText: "Open"
   }
 ];
 
@@ -214,7 +214,7 @@ const designs = [
   {
     title: "Visual Portfolio & Presentation Boards",
     category: "Visual Design",
-    description: "Portfolio boards, thumbnails, documentation covers, social post visuals, and visual storytelling systems linked through Behance.",
+    description: "Portfolio boards, thumbnails, documentation covers, social post visuals, and visual design systems linked through Behance.",
     image: "assets/images/placeholder-design.svg",
     file: "",
     link: "https://www.behance.net/princess2905",
@@ -236,103 +236,103 @@ const projects = [
     tools: ["AI Data", "Visual QA", "Metadata", "Google Drive"],
     tags: ["AI Data", "Documentation"],
     status: "Self-directed AI data portfolio project.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "Personal Trading Assistant Bot",
     category: "Automation Bot",
     description: "Personal automation workflow for intraday scanning, breakout filters, risk-reward calculations, ranked candidates, reports, and email-alert concepts.",
-    image: "assets/images/cover-qa.svg",
+    image: "assets/images/cover-trading.svg",
     file: "",
     link: "#proof-library",
     tools: ["Python", "Codex", "PowerShell", "CSV/Excel"],
     tags: ["Automation", "Python"],
     status: "Personal workflow; not financial advice or a commercial trading product.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "NGO Operations Documentation System",
     category: "Documentation System",
     description: "Client-ready operations helpkit concept for governance, HR, volunteers, fundraising, grants, compliance, impact reporting, and risk management.",
-    image: "assets/images/cover-docs.svg",
+    image: "assets/images/cover-ngo.svg",
     file: "",
     link: "#proof-library",
     tools: ["MS Word", "Google Docs", "ChatGPT", "Claude"],
     tags: ["Documentation", "NGO"],
     status: "Self-directed documentation system.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "Advocate Documentation Support Pack",
     category: "Documentation System",
     description: "Legal-admin documentation concept for intake, client communication, hearing notes, matter tracking, checklists, and responsible-use templates.",
-    image: "assets/images/cover-docs.svg",
+    image: "assets/images/cover-advocate.svg",
     file: "",
     link: "#proof-library",
     tools: ["MS Word", "PDF", "Checklist Design"],
     tags: ["Documentation", "Legal Admin"],
     status: "Administrative support pack; not legal advice.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "Freelancer Operations Toolkit",
     category: "Content System",
     description: "Practical service operations toolkit for onboarding, pricing, proposals, delivery checklists, revision tracking, invoicing, and lead research.",
-    image: "assets/images/cover-docs.svg",
+    image: "assets/images/cover-freelancer.svg",
     file: "",
     link: "#proof-library",
     tools: ["Google Sheets", "Prospeo", "Apollo", "Reoon"],
     tags: ["Content", "Lead Generation"],
     status: "Client-ready toolkit concept documented as a portfolio project.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "Creator Content Planning Toolkit",
     category: "Content System",
-    description: "Content workflow for carousels, captions, storytime scripts, emotional essays, blog outlines, hooks, calendars, and repurposing.",
-    image: "assets/images/cover-creative.svg",
+    description: "Content workflow for carousels, captions, scripts, essays, blog outlines, hooks, calendars, and repurposing.",
+    image: "assets/images/cover-creator.svg",
     file: "",
     link: "#proof-library",
     tools: ["Canva", "Medium", "GitHub Pages", "AI Writing"],
     tags: ["Content", "Writing"],
     status: "Portfolio content system.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "Smart Home Automation using NodeMCU",
     category: "Engineering",
     description: "IoT automation prototype using NodeMCU ESP8266, relay circuits, Wi-Fi setup, Sinric Pro API, Alexa, and Google Assistant.",
-    image: "assets/images/cover-engineering.svg",
+    image: "assets/images/cover-iot.svg",
     file: "",
     link: "#proof-library",
     tools: ["NodeMCU", "Arduino IDE", "Sinric Pro", "Alexa"],
     tags: ["Engineering", "Automation"],
     status: "Academic and portfolio engineering project.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "VR Emergency Landing Simulation",
     category: "Engineering Simulation",
     description: "AR/VR simulation concept around emergency airplane landing and parachute deployment using Unity, WebVR, and A-Frame.",
-    image: "assets/images/cover-engineering.svg",
+    image: "assets/images/cover-vr.svg",
     file: "",
     link: "#proof-library",
     tools: ["Unity", "A-Frame", "WebVR"],
     tags: ["Engineering", "Simulation"],
     status: "Internship and portfolio simulation exposure.",
-    buttonText: "View Details"
+    buttonText: "Open"
   },
   {
     title: "Hybrid Composite Materials Research",
     category: "Engineering",
     description: "Academic research-oriented work connecting mechanical analysis, material behavior, CAD/CAE thinking, and technical documentation.",
-    image: "assets/images/cover-engineering.svg",
+    image: "assets/images/cover-composite.svg",
     file: "",
     link: "#proof-library",
     tools: ["Research", "CAD/CAE", "Technical Documentation"],
     tags: ["Engineering", "Research"],
     status: "Academic research-oriented project.",
-    buttonText: "View Details"
+    buttonText: "Open"
   }
 ];
 
@@ -433,121 +433,17 @@ const featuredLinks = [
     icon: "SF"
   },
   {
-    title: "GitHub Pages Portfolio Website",
-    category: "Portfolio",
-    description: "Project-site URL for the Portfolio repository. This may show 404 until GitHub Pages finishes publishing.",
+    title: "GitHub Profile",
+    category: "Code Profile",
+    description: "GitHub account for repositories, project pages, and technical work.",
     image: "",
     file: "",
-    link: "https://princessofficial2905.github.io/Portfolio/",
-    tools: ["GitHub Pages"],
-    tags: ["Portfolio"],
-    status: "Should work after deployment from the Portfolio repository.",
-    buttonText: "Open Site",
+    link: "https://github.com/princessofficial2905",
+    tools: ["GitHub"],
+    tags: ["Profile"],
+    status: "Public GitHub profile linked.",
+    buttonText: "Open GitHub",
     icon: "GH"
-  },
-  {
-    title: "Resume HTML",
-    category: "Resume",
-    description: "Polished browser and print-ready master resume.",
-    image: "",
-    file: "MASTER_RESUME_PRINCESS.html",
-    link: "",
-    tools: ["HTML", "Print CSS"],
-    tags: ["Resume"],
-    status: "Created locally.",
-    buttonText: "Open Resume",
-    icon: "CV"
-  },
-  {
-    title: "Original Mega Master Resume PDF",
-    category: "Resume",
-    description: "Detailed resume bank used as the source for this portfolio and future targeted applications.",
-    image: "",
-    file: "assets/docs/Princess_Mega_Master_Resume.pdf",
-    link: "",
-    tools: ["PDF", "Resume"],
-    tags: ["Resume"],
-    status: "Original PDF included in this repository.",
-    buttonText: "Open PDF",
-    icon: "PDF"
-  },
-  {
-    title: "Compact Resume PDF",
-    category: "Resume",
-    description: "Shorter resume version with key Salesforce, QA, engineering, and project details.",
-    image: "",
-    file: "assets/docs/Resume_Princess.pdf",
-    link: "",
-    tools: ["PDF", "Resume"],
-    tags: ["Resume"],
-    status: "Original PDF included in this repository.",
-    buttonText: "Open PDF",
-    icon: "CV"
-  },
-  {
-    title: "Master Resume Markdown",
-    category: "Resume",
-    description: "ATS-friendly mega master resume source file for future targeted versions.",
-    image: "",
-    file: "MASTER_RESUME_PRINCESS.md",
-    link: "",
-    tools: ["Markdown"],
-    tags: ["Resume"],
-    status: "Created locally.",
-    buttonText: "Open Markdown",
-    icon: "MD"
-  },
-  {
-    title: "Certificates Section",
-    category: "Proof Gallery",
-    description: "Carousel of certificates, credentials, learning signals, and public profiles.",
-    image: "",
-    file: "",
-    link: "#certificates",
-    tools: ["Portfolio"],
-    tags: ["Certificates"],
-    status: "Ready for uploaded certificate files.",
-    buttonText: "View Section",
-    icon: "Ce"
-  },
-  {
-    title: "Writing Gallery",
-    category: "Proof Gallery",
-    description: "Writing, blog, essay, and editorial HTML showcase.",
-    image: "",
-    file: "",
-    link: "#writings",
-    tools: ["Portfolio"],
-    tags: ["Writing"],
-    status: "Ready for local writing files.",
-    buttonText: "View Section",
-    icon: "Pg"
-  },
-  {
-    title: "Design Gallery",
-    category: "Proof Gallery",
-    description: "Behance, logo, branding, and visual design showcase.",
-    image: "",
-    file: "",
-    link: "#designs",
-    tools: ["Portfolio"],
-    tags: ["Designs"],
-    status: "Ready for design thumbnails.",
-    buttonText: "View Section",
-    icon: "Ds"
-  },
-  {
-    title: "Project Gallery",
-    category: "Proof Gallery",
-    description: "Featured technical, creative, documentation, automation, and engineering projects.",
-    image: "",
-    file: "",
-    link: "#projects",
-    tools: ["Portfolio"],
-    tags: ["Projects"],
-    status: "Created locally.",
-    buttonText: "View Projects",
-    icon: "Pr"
   }
 ];
 
@@ -561,12 +457,12 @@ const proofLibrary = [
     category: "QA Testing",
     description: "Manual, exploratory, usability, functional, regression, cross-browser, and cross-device testing experience with structured bug reports and evidence.",
     image: "assets/images/cover-qa.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Manual Testing", "Bug Reporting", "Regression Testing"],
-    tags: ["QA Testing", "Resume"],
-    status: "Documented in master resume.",
-    buttonText: "View Resume",
+    tags: ["QA Testing", "Platform Testing"],
+    status: "Platform-based testing experience summary.",
+    buttonText: "Open",
     libraryType: "QA Testing"
   },
   {
@@ -574,12 +470,12 @@ const proofLibrary = [
     category: "Salesforce",
     description: "Salesforce Lightning, SOQL, reports, dashboards, data cleaning, import/export files, CRM data governance, and testing exposure.",
     image: "assets/images/cover-salesforce.svg",
-    file: "MASTER_RESUME_PRINCESS.html",
+    file: "",
     link: "",
     tools: ["Salesforce Lightning", "SOQL", "Excel"],
     tags: ["Salesforce", "CRM"],
-    status: "Documented in master resume.",
-    buttonText: "View Resume",
+    status: "Internship experience summary.",
+    buttonText: "Open",
     libraryType: "Salesforce"
   }
 ];

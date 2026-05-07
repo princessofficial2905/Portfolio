@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Creator content planning toolkit illustration</title>
+  <desc id="desc">Carousel cards, pen strokes, content calendar, and writing notes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".62" stop-color="#151515"/>
+      <stop offset="1" stop-color="#2a1f22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".78" cy=".25" r=".5">
+      <stop offset="0" stop-color="#ef9da2" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ef9da2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="780" fill="url(#glow)"/>
+  <g opacity=".13" stroke="#fff" stroke-width="2">
+    <path d="M135 150h930M135 255h930M135 360h930M135 465h930M135 570h930"/>
+    <path d="M235 100v520M395 100v520M555 100v520M715 100v520M875 100v520"/>
+  </g>
+  <g transform="translate(182 145)">
+    <rect width="240" height="350" rx="34" fill="#f2f2f2"/>
+    <rect x="40" y="58" width="160" height="95" rx="22" fill="#111"/>
+    <path d="M42 202h154M42 248h116M42 294h140" stroke="#111" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(475 108)">
+    <rect width="260" height="385" rx="36" fill="#151515" stroke="#f2f2f2" stroke-opacity=".26"/>
+    <path d="M54 83h148M54 138h100M54 225h158M54 280h118" stroke="#f2f2f2" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="202" cy="307" r="28" fill="#ef9da2"/>
+  </g>
+  <g transform="translate(785 166)">
+    <rect width="230" height="230" rx="34" fill="#f2f2f2"/>
+    <path d="M42 72h146M42 118h112M42 164h146" stroke="#111" stroke-width="15" stroke-linecap="round"/>
+    <path d="M-58 290c96-72 205-34 298-120" fill="none" stroke="#ef9da2" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <path d="M256 548c172-64 302-55 450-4 110 38 184 16 268-42" fill="none" stroke="#f2f2f2" stroke-width="7" stroke-dasharray="4 20" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="54" font-weight="900">Creator Content Toolkit</text>
+  <text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">carousels, captions, scripts, calendars, and blogs</text>
+</svg>

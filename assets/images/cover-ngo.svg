@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">NGO operations documentation illustration</title>
+  <desc id="desc">Governance board, grant tracker, people icons, and impact reporting panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".65" stop-color="#151515"/>
+      <stop offset="1" stop-color="#1f261d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".2" cy=".18" r=".52">
+      <stop offset="0" stop-color="#b9d49b" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#b9d49b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="780" fill="url(#glow)"/>
+  <g opacity=".16" stroke="#fff" stroke-width="2">
+    <path d="M120 180h960M120 340h960M120 500h960"/>
+    <path d="M250 110v490M500 110v490M750 110v490M1000 110v490"/>
+  </g>
+  <g transform="translate(160 145)">
+    <rect x="0" y="0" width="360" height="430" rx="34" fill="#f2f2f2"/>
+    <path d="M62 82h238M62 132h190M62 182h238M62 232h150" stroke="#171717" stroke-width="18" stroke-linecap="round"/>
+    <rect x="62" y="292" width="168" height="72" rx="18" fill="#171717"/>
+    <circle cx="278" cy="328" r="42" fill="#d6cf8b"/>
+  </g>
+  <g transform="translate(570 172)" fill="none" stroke="#f0f0f0" stroke-width="14" stroke-linecap="round">
+    <path d="M80 300v-82c0-50 42-90 94-90h20c52 0 94 40 94 90v82"/>
+    <circle cx="184" cy="82" r="58"/>
+    <path d="M0 332h370"/>
+  </g>
+  <g transform="translate(708 115)">
+    <circle cx="210" cy="188" r="96" fill="#d6cf8b" opacity=".92"/>
+    <path d="M170 190l33 33 70-84" fill="none" stroke="#080808" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(704 420)">
+    <rect width="330" height="122" rx="30" fill="#111" stroke="#f2f2f2" stroke-opacity=".28"/>
+    <path d="M44 82c52-66 108-18 150-58 24-23 57-8 92 16" fill="none" stroke="#b9d49b" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="50" cy="82" r="10" fill="#b9d49b"/><circle cx="146" cy="44" r="10" fill="#b9d49b"/><circle cx="286" cy="40" r="10" fill="#b9d49b"/>
+  </g>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="54" font-weight="900">NGO Documentation</text>
+  <text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">governance, grants, impact, and operations</text>
+</svg>

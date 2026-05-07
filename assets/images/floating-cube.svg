@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560" role="img" aria-label="floating 3d cube">
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#777"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="32" stdDeviation="26" flood-color="#000" flood-opacity="0.62"/>
+    </filter>
+  </defs>
+  <rect width="560" height="560" fill="none"/>
+  <g filter="url(#shadow)">
+    <path d="M134 196l146-84 146 84-146 84z" fill="url(#top)"/>
+    <path d="M134 196l146 84v168l-146-84z" fill="#777"/>
+    <path d="M426 196L280 280v168l146-84z" fill="#262626"/>
+    <path d="M206 198l74-42 74 42-74 44z" fill="#111"/>
+    <path d="M134 196l146 84 146-84M280 280v168" fill="none" stroke="#f8f8f8" stroke-opacity="0.34" stroke-width="3"/>
+  </g>
+</svg>

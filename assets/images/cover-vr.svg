@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">VR emergency landing simulation illustration</title>
+  <desc id="desc">VR headset, flight path, parachute, and simulation environment grid.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".6" stop-color="#171717"/>
+      <stop offset="1" stop-color="#1d2030"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".28" cy=".24" r=".52">
+      <stop offset="0" stop-color="#9fb7ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#9fb7ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="780" fill="url(#glow)"/>
+  <g opacity=".15" stroke="#fff" stroke-width="2">
+    <path d="M135 150h930M135 255h930M135 360h930M135 465h930M135 570h930"/>
+    <path d="M235 100v520M395 100v520M555 100v520M715 100v520M875 100v520"/>
+  </g>
+  <g transform="translate(175 230)">
+    <rect width="430" height="230" rx="70" fill="#f2f2f2"/>
+    <rect x="72" y="62" width="130" height="106" rx="36" fill="#111"/>
+    <rect x="228" y="62" width="130" height="106" rx="36" fill="#111"/>
+    <path d="M202 116h26" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+    <path d="M70 210c85 76 230 76 292 0" fill="none" stroke="#9fb7ff" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(705 115)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 250C72 125 135 48 230 36c91 12 152 89 128 214" stroke="#f2f2f2" stroke-width="11"/>
+    <path d="M100 250h258M162 250l68 100 68-100M230 36v314" stroke="#f2f2f2" stroke-width="9"/>
+    <circle cx="230" cy="350" r="22" fill="#d8bd80" stroke="none"/>
+  </g>
+  <path d="M610 198c92-64 190-54 280 20" fill="none" stroke="#d8bd80" stroke-width="8" stroke-dasharray="18 18" stroke-linecap="round"/>
+  <path d="M820 196l96 26-84 52 18-40-44-10z" fill="#f2f2f2"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="54" font-weight="900">VR Emergency Landing</text>
+  <text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">Unity, A-Frame, WebVR, flight path, and simulation logic</text>
+</svg>

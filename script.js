@@ -60,6 +60,35 @@ function makeTags(tags = []) {
   return tags.slice(0, 4).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
 }
 
+function hashString(value = "") {
+  return [...String(value)].reduce((hash, char) => (
+    ((hash << 5) - hash) + char.charCodeAt(0)
+  ), 0);
+}
+
+function getInitials(value = "") {
+  const words = String(value).match(/[A-Za-z0-9]+/g) || ["P"];
+  return words.slice(0, 2).map((word) => word[0]).join("").toUpperCase();
+}
+
+function shouldGenerateVisual(image = "") {
+  return !image || image.includes("placeholder-");
+}
+
+function makeGeneratedVisual(item) {
+  const category = item.category || item.libraryType || "Portfolio";
+  const hue = Math.abs(hashString(`${item.title}-${category}`)) % 360;
+  return `
+    <div class="card-media generated-media" style="--visual-hue: ${hue};">
+      <div class="generated-grid" aria-hidden="true"></div>
+      <div class="generated-orbit" aria-hidden="true"></div>
+      <span class="generated-label">${escapeHtml(category)}</span>
+      <strong>${escapeHtml(getInitials(item.title))}</strong>
+      <p>${escapeHtml(item.title)}</p>
+    </div>
+  `;
+}
+
 function makeAction(item) {
   const href = getItemHref(item);
   const label = item.buttonText || "Open";
@@ -84,6 +113,10 @@ function makeMedia(item, useIframe = false) {
   }
 
   const image = item.image || "assets/images/placeholder-project.svg";
+  if (shouldGenerateVisual(image)) {
+    return makeGeneratedVisual(item);
+  }
+
   const wrapped = href ? `<a href="${escapeHtml(href)}"${isExternalUrl(href) ? ' target="_blank" rel="noopener"' : ""}>` : "";
   const wrappedClose = href ? "</a>" : "";
   return `
@@ -97,6 +130,7 @@ function cardTemplate(item, options = {}) {
   const classes = options.classes || "project-card";
   const showMedia = options.showMedia !== false;
   const showStatus = options.showStatus !== false;
+  const showAction = options.showAction === true;
   return `
     <article class="${classes} reveal">
       ${showMedia ? makeMedia(item, options.useIframe) : ""}
@@ -106,7 +140,7 @@ function cardTemplate(item, options = {}) {
         <p>${escapeHtml(item.description)}</p>
         ${item.tools?.length ? `<div class="tag-row">${makeTags(item.tools)}</div>` : ""}
         ${showStatus && item.status ? `<p class="card-status">${escapeHtml(item.status)}</p>` : ""}
-        ${makeAction(item)}
+        ${showAction ? makeAction(item) : ""}
       </div>
     </article>
   `;
@@ -236,17 +270,18 @@ function renderFeaturedLinks() {
 
   mount.innerHTML = data.featuredLinks.map((item) => {
     const href = getItemHref(item);
-    const target = isExternalUrl(href) ? ' target="_blank" rel="noopener"' : "";
+    const target = href && isExternalUrl(href) ? ' target="_blank" rel="noopener"' : "";
+    const tagName = href ? "a" : "article";
+    const linkAttrs = href ? ` href="${escapeHtml(href)}"${target}` : "";
     return `
-      <article class="link-card reveal">
+      <${tagName} class="link-card reveal"${linkAttrs}>
         <div class="link-icon" aria-hidden="true">${escapeHtml(item.icon || "Go")}</div>
         <div>
           <span class="category-pill">${escapeHtml(item.category)}</span>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.description)}</p>
-          ${href ? `<a class="card-action" href="${escapeHtml(href)}"${target}>${escapeHtml(item.buttonText || "Open")}</a>` : ""}
         </div>
-      </article>
+      </${tagName}>
     `;
   }).join("");
 }
@@ -327,6 +362,31 @@ function initSearch() {
   search.addEventListener("input", renderLibrary);
 }
 
+function initFloatingArt() {
+  const art = [...document.querySelectorAll(".float-art[data-depth]")];
+  if (!art.length || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  let ticking = false;
+  const update = () => {
+    const y = window.scrollY || 0;
+    art.forEach((item, index) => {
+      const depth = Number(item.dataset.depth || 0);
+      const drift = y * depth;
+      const rotate = Math.sin((y / 420) + index) * 4;
+      item.style.setProperty("--scroll-drift", `${drift.toFixed(2)}px`);
+      item.style.setProperty("--scroll-rotate", `${rotate.toFixed(2)}deg`);
+    });
+    ticking = false;
+  };
+
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(update);
+  }, { passive: true });
+  update();
+}
+
 function init() {
   renderProjectFilters();
   renderProjects();
@@ -342,6 +402,7 @@ function init() {
   initCarouselControls();
   initMobileNav();
   initSearch();
+  initFloatingArt();
   initReveal();
 }
 
