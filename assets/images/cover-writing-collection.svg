@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Blog collection cover</title>
+  <desc id="desc">Editorial writing cover with open publication pages and flowing text lines.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".62" stop-color="#151515"/><stop offset="1" stop-color="#242018"/></linearGradient><radialGradient id="g" cx=".74" cy=".27" r=".52"><stop stop-color="#f6e6a6" stop-opacity=".3"/><stop offset="1" stop-color="#f6e6a6" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".14" stroke="#fff" stroke-width="2"><path d="M130 160h940M130 295h940M130 430h940M130 565h940"/><path d="M280 105v520M520 105v520M760 105v520M1000 105v520"/></g>
+  <path d="M190 150h310c66 0 120 54 120 120v300H310c-66 0-120-54-120-120z" fill="#f2f2f2"/><path d="M620 150h210v420H620z" fill="#f6e6a6"/>
+  <path d="M280 250h230M280 312h170M280 374h250M670 250h100M670 312h100M670 374h100" stroke="#111" stroke-width="17" stroke-linecap="round"/>
+  <path d="M256 500c152-84 312-84 480 0" fill="none" stroke="#f6e6a6" stroke-width="13" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Blog Collection</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">writing hub, editorial pages, published thoughts</text>
+</svg>

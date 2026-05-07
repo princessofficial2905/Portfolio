@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Lean Six Sigma quality credential cover</title>
+  <desc id="desc">Quality management cover with check mark, process ring, and improvement ribbon.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".65" stop-color="#161616"/><stop offset="1" stop-color="#28231a"/></linearGradient><radialGradient id="g" cx=".75" cy=".22" r=".54"><stop stop-color="#f0ce78" stop-opacity=".33"/><stop offset="1" stop-color="#f0ce78" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".13" stroke="#fff" stroke-width="2"><path d="M130 165h940M130 300h940M130 435h940M130 570h940"/><path d="M300 105v520M540 105v520M780 105v520"/></g>
+  <circle cx="430" cy="316" r="170" fill="none" stroke="#f2f2f2" stroke-width="20"/><circle cx="430" cy="316" r="116" fill="none" stroke="#f0ce78" stroke-width="10"/>
+  <path d="M338 316l66 66 130-166" fill="none" stroke="#f2f2f2" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M360 476l-48 134 118-56 118 56-48-134" fill="#f0ce78"/>
+  <path d="M690 238h230M690 302h150M690 366h260" stroke="#f2f2f2" stroke-width="16" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Lean Six Sigma</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">quality management, process improvement</text>
+</svg>

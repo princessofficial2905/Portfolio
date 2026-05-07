@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Visual portfolio boards cover</title>
+  <desc id="desc">Visual design cover with moodboard cards, presentation layouts, and creative boards.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".62" stop-color="#151515"/><stop offset="1" stop-color="#201f28"/></linearGradient><radialGradient id="g" cx=".76" cy=".28" r=".52"><stop stop-color="#c7c1ff" stop-opacity=".3"/><stop offset="1" stop-color="#c7c1ff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".13" stroke="#fff" stroke-width="2"><path d="M130 160h940M130 295h940M130 430h940M130 565h940"/><path d="M280 105v520M520 105v520M760 105v520M1000 105v520"/></g>
+  <rect x="160" y="138" width="260" height="190" rx="34" fill="#f2f2f2"/><rect x="470" y="130" width="310" height="245" rx="38" fill="#c7c1ff"/><rect x="210" y="380" width="250" height="190" rx="34" fill="#292929" stroke="#f2f2f2" stroke-opacity=".35" stroke-width="5"/><rect x="520" y="430" width="220" height="140" rx="32" fill="#f2f2f2"/>
+  <path d="M220 240c86-58 142-54 200 18M520 245h190M520 305h120M268 488h120M570 500h90" stroke="#111" stroke-width="15" stroke-linecap="round"/>
+  <path d="M268 488h120" stroke="#f2f2f2" stroke-width="15" stroke-linecap="round"/><circle cx="790" cy="430" r="34" fill="#c7c1ff"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Visual Boards</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">portfolio boards, presentation layouts, thumbnails</text>
+</svg>

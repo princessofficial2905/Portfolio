@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Business analysis credential cover</title>
+  <desc id="desc">Business process mapping cover with workflow nodes and analysis cards.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".62" stop-color="#161616"/><stop offset="1" stop-color="#211d29"/></linearGradient><radialGradient id="g" cx=".72" cy=".26" r=".52"><stop stop-color="#d6a7ff" stop-opacity=".3"/><stop offset="1" stop-color="#d6a7ff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".14" stroke="#fff" stroke-width="2"><path d="M130 160h940M130 295h940M130 430h940M130 565h940"/><path d="M280 105v520M520 105v520M760 105v520M1000 105v520"/></g>
+  <rect x="170" y="170" width="210" height="130" rx="30" fill="#f2f2f2"/><rect x="500" y="170" width="210" height="130" rx="30" fill="#d6a7ff"/><rect x="335" y="420" width="210" height="130" rx="30" fill="#f2f2f2"/>
+  <path d="M380 235h120M606 300l-110 120M276 300l112 120" fill="none" stroke="#f2f2f2" stroke-width="14" stroke-linecap="round"/>
+  <path d="M220 236h110M548 236h112M386 486h108" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="440" cy="420" r="24" fill="#d6a7ff"/><path d="M760 250h220M760 315h150M760 380h250" stroke="#f2f2f2" stroke-width="16" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Business Analysis</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">process mapping, requirements, workflow clarity</text>
+</svg>

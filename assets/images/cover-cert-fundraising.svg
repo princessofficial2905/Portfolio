@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Fundraising internship credential cover</title>
+  <desc id="desc">Nonprofit fundraising cover with donation hands, heart, and campaign progress.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".64" stop-color="#151515"/><stop offset="1" stop-color="#202518"/></linearGradient><radialGradient id="g" cx=".72" cy=".22" r=".52"><stop stop-color="#d7db82" stop-opacity=".31"/><stop offset="1" stop-color="#d7db82" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".14" stroke="#fff" stroke-width="2"><path d="M130 160h940M130 295h940M130 430h940M130 565h940"/><path d="M290 105v520M540 105v520M790 105v520"/></g>
+  <path d="M250 446c88 16 126 74 216 74h118c64 0 112-34 156-88" fill="none" stroke="#f2f2f2" stroke-width="22" stroke-linecap="round"/>
+  <path d="M756 328c-86 18-132 68-198 68H440c-64 0-108-34-150-86" fill="none" stroke="#d7db82" stroke-width="22" stroke-linecap="round"/>
+  <path d="M512 190c-48-72-150-26-150 56 0 90 150 158 150 158s150-68 150-158c0-82-102-128-150-56z" fill="#f2f2f2"/>
+  <path d="M802 496h220M802 438h164M802 380h110" stroke="#d7db82" stroke-width="16" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Fundraising Internship</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">campaign support, outreach, donor communication</text>
+</svg>

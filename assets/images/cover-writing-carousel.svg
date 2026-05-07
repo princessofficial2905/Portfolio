@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Content carousel concepts cover</title>
+  <desc id="desc">Social content planning cover with stacked carousel cards and caption flow.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".64" stop-color="#151515"/><stop offset="1" stop-color="#28202a"/></linearGradient><radialGradient id="g" cx=".74" cy=".27" r=".52"><stop stop-color="#e9b2ff" stop-opacity=".31"/><stop offset="1" stop-color="#e9b2ff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".13" stroke="#fff" stroke-width="2"><path d="M130 160h940M130 295h940M130 430h940M130 565h940"/><path d="M280 105v520M520 105v520M760 105v520M1000 105v520"/></g>
+  <rect x="188" y="170" width="250" height="340" rx="40" fill="#f2f2f2"/><rect x="400" y="125" width="270" height="385" rx="44" fill="#e9b2ff"/><rect x="640" y="205" width="250" height="305" rx="40" fill="#202020" stroke="#f2f2f2" stroke-opacity=".35" stroke-width="5"/>
+  <path d="M250 250h126M250 310h94M462 222h144M462 286h104M706 292h118M706 352h82" stroke="#111" stroke-width="16" stroke-linecap="round"/><path d="M706 292h118M706 352h82" stroke="#f2f2f2" stroke-width="16" stroke-linecap="round"/>
+  <path d="M248 548c182-78 382-74 596 0" fill="none" stroke="#e9b2ff" stroke-width="12" stroke-linecap="round" stroke-dasharray="16 18"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Carousel Concepts</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">hooks, captions, content calendars, post systems</text>
+</svg>

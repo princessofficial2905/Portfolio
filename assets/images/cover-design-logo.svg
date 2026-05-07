@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Logo design concepts cover</title>
+  <desc id="desc">Logo design cover with geometric mark, construction grid, and brand system.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050505"/><stop offset=".64" stop-color="#151515"/><stop offset="1" stop-color="#241f2b"/></linearGradient><radialGradient id="g" cx=".74" cy=".27" r=".52"><stop stop-color="#d8a9ff" stop-opacity=".32"/><stop offset="1" stop-color="#d8a9ff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#g)"/>
+  <g opacity=".14" stroke="#fff" stroke-width="2"><path d="M130 160h940M130 295h940M130 430h940M130 565h940"/><path d="M280 105v520M520 105v520M760 105v520"/></g>
+  <path d="M470 118l250 144v288L470 694 220 550V262z" fill="#f2f2f2"/><path d="M470 276l112 64v128l-112 64-112-64V340z" fill="#050505"/>
+  <path d="M220 262h500M220 550h500M470 118v576M170 406h600" stroke="#d8a9ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 18"/>
+  <circle cx="470" cy="406" r="28" fill="#d8a9ff"/><path d="M820 255h190M820 315h118M820 375h162" stroke="#f2f2f2" stroke-width="16" stroke-linecap="round"/>
+  <text x="86" y="690" fill="#f6f6f6" font-family="Georgia,serif" font-size="52" font-weight="900">Logo Concepts</text><text x="90" y="724" fill="#a7a7a7" font-family="Segoe UI,sans-serif" font-size="21" font-weight="700">marks, identity systems, visual exploration</text>
+</svg>
