@@ -58,7 +58,7 @@ const certificates = [
     link: "",
     tools: ["Python"],
     tags: ["Certificate", "Programming"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -70,7 +70,7 @@ const certificates = [
     link: "",
     tools: ["Excel", "Data Analysis"],
     tags: ["Certificate", "Excel"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -82,7 +82,7 @@ const certificates = [
     link: "",
     tools: ["Communication", "Workplace Skills"],
     tags: ["Certificate", "Professional Skills"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -94,7 +94,7 @@ const certificates = [
     link: "",
     tools: ["Fundraising", "Outreach"],
     tags: ["Certificate", "NGO"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -106,7 +106,7 @@ const certificates = [
     link: "",
     tools: ["Engineering", "Simulation"],
     tags: ["Certificate", "Engineering"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -118,7 +118,7 @@ const certificates = [
     link: "",
     tools: ["Quality", "Process Improvement"],
     tags: ["Certificate", "Quality"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -130,7 +130,7 @@ const certificates = [
     link: "",
     tools: ["Business Analysis", "Process Mapping"],
     tags: ["Certificate", "Business Analysis"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   },
   {
@@ -142,7 +142,7 @@ const certificates = [
     link: "",
     tools: ["SEO", "Content"],
     tags: ["Certificate", "Marketing"],
-    status: "Certificate file can be attached later.",
+    status: "Credential listed for profile reference.",
     buttonText: "View Credential"
   }
 ];
