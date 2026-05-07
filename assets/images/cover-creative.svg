@@ -21,6 +21,6 @@
     <path d="M802 298l-32 92 84-46z" fill="#f0f0f0"/>
     <path d="M744 234l58 64" stroke="#111" stroke-width="10" stroke-linecap="round"/>
   </g>
-  <text x="205" y="662" fill="#f8f8f8" font-family="Georgia, serif" font-size="56" font-weight="700">Writing & Design</text>
+  <text x="205" y="662" fill="#f8f8f8" font-family="Georgia, serif" font-size="56" font-weight="700">Writing &amp; Design</text>
   <text x="207" y="706" fill="#a8a8a8" font-family="Arial, sans-serif" font-size="24">Essays, carousels, visual direction, branding, and portfolio storytelling</text>
 </svg>
